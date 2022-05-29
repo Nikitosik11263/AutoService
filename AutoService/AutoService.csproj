@@ -111,10 +111,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Lists\User.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lists\NewUser.xaml.cs">
@@ -128,9 +124,6 @@
     </Compile>
     <Compile Include="Lists\TireService.xaml.cs">
       <DependentUpon>TireService.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Lists\User.xaml.cs">
-      <DependentUpon>User.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

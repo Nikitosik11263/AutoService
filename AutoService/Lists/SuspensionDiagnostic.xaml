@@ -259,11 +259,11 @@
         </Button>
 
         <Button
-            x:Name="btnForw"
-            Content="Далее"
+            x:Name="btnSignUp"
+            Content="Записаться"
             Grid.Column="2"
             Grid.Row="4"
-            Width="60"
+            Width="75"
             Height="40"
             HorizontalAlignment="Right"
             Margin="90 0"
@@ -271,7 +271,7 @@
             Foreground="Black" 
             FontWeight="Bold" 
             Style="{DynamicResource ButtonStyle1}"
-            Click="btnForw_Click">
+            >
             <Button.Background>
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
             </Button.Background>

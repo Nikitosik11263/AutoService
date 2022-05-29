@@ -32,12 +32,7 @@ namespace AutoService.Lists
             this.Close();
         }
 
-        private void btnForw_Click(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
-            User user = new User();
-            user.ShowDialog();
-            this.Close();
-        }
+        
+        
     }
 }

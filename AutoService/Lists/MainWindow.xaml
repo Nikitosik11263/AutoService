@@ -257,7 +257,7 @@
             Margin="0 35"
             />
         <TextBlock
-            Text="AP.ServiceRF@gmIL.com"
+            Text="AP.ServiceRF@gmIl.com"
             FontSize="15"
             Grid.Column="2"
             HorizontalAlignment="Center"
